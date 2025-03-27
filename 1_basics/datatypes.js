@@ -1,7 +1,7 @@
 "use strict"//treat all Js code ad newer version
 
 let name="sowmya"//string
-let age=18// integer
+let age=18
 let isloggedin=false //boolean
 
 //primitive data types
