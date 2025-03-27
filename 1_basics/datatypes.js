@@ -4,11 +4,7 @@ let name="sowmya"//string
 let age=18
 let isloggedin=false //boolean
 
-//primitive data types
-//number -> 2 to pwer 53
-//BigInt
-//string=" "
-//boolean =true/false
+
 //null-standalone value(empty value)
 //undefined-value is not assigned
 //symbol - unique
@@ -17,3 +13,8 @@ let isloggedin=false //boolean
 console.log(typeof "sowmya");
 console.log(typeof null);
 console.log(typeof undefined)
+
+/*Primitive(call by value)
+7 types:string,Number,Boolean,null,undefined,symbol,BigInt
+Reference type(non primitive):Arrays,Objects,Functions
+*/
