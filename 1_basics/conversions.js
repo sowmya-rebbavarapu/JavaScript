@@ -12,9 +12,9 @@ console.log(value)
 //if num if null output would be 0 and type will be object
 //if num if undefined output would be undefined and output will be NaN
 
-//"33"->33
-//"33abs"->NaN
-//true->1,false->0
+// "33"->33
+// "33abs"->NaN
+// true->1,false->0
 
 let isLoggedIn=1
 let booleanisLoggedIn=Boolean(isLoggedIn)
@@ -28,3 +28,16 @@ let n=33
 let stringNumber=String(n)
 console.log(typeof stringNumber)
 console.log(stringNumber)
+
+//operations->+,-,*,**,/,%
+
+let str1="hello"
+let str2="hi"
+console.log(str1+str2)
+
+console.log("1"+2+1)
+console.log(1+2+"2")
+
+let counter=100;
+counter++;
+console.log(counter);
