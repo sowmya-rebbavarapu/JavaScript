@@ -18,3 +18,25 @@ console.log(typeof undefined)
 7 types:string,Number,Boolean,null,undefined,symbol,BigInt
 Reference type(non primitive):Arrays,Objects,Functions
 */
+
+/*********************************************/
+//stack(primitive),heap(non-primitve)
+
+
+let myname="sowmya"
+let anothername=myname
+anothername="geetha"
+
+console.log(myname)
+console.log(anothername)
+
+//here the data is stored in heap the stack has the refernce to the user data in the heap
+let user={
+    email:"123@gmail.com",
+    id:123
+}
+let usertwo=user
+
+usertwo.email="1234@gmail.com"
+console.log(usertwo.email)
+console.log(user.email)
