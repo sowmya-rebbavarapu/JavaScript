@@ -52,3 +52,23 @@ console.log(obj4)
 //to get the values Object.values(object name)
 //Object.entries(object name)
 //hasOwnProperty("key name")-true or false
+
+
+//destructuring 
+const course={
+    coursename:"javascript",
+    price:"999"
+}
+const {price:p}=course
+console.log(p)
+
+//json-object in json both the key and value are strings
+/*
+{
+  "name":"sowmya"
+}
+  we can write in the format of arrays also
+  [
+      {},{}
+  ]
+ */
